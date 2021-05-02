@@ -33,8 +33,11 @@ The following components are used to build the code for this project:
 
 ### Functionality:
 
-* using Sequelize Model to build database tables
+* using Sequelize Model to build database tables:
+    - 'Category', 'Product', 'Tag', 'ProductTag'
+    - 'ProductTag' table used for relating 'Product' and 'Tag' table only
 * using Express.js to perform RESTful CRUD operations
+    - CREATE, READ, UPDATE, DELETE from all three database tables (please refer to the [walkthrough video](#Application-Walkthrough)
 
 ### Process:
 
@@ -54,13 +57,13 @@ The following components are used to build the code for this project:
 4. Directory should include the following:
 ![Directory Structure:](./assets/images/dir-struc.png)
 
-***5. IMPORTANT >>>
+## Usage
+
+***IMPORTANT >>>
     - rename `.env.EXAMPLE` to `.env`
     - change "//YOUR SQL PASSWORD HERE//" to your own sql password***
 
-## Usage
-
-If accessing application from source code 
+Copy and past the schema located in the `db` directory into your MySQL workbench
 
 RUN WITH CLI:
 
