@@ -1,10 +1,10 @@
-# e.commerce-backend [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# E.commerce BACKEND [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ****
 
 ## Project overview
 
-A backend management application to help with e-commerce product management.
+This application is the backend that manages an internet retail company's product database built with Sequalize and Express.js - this application is a practice in ***O****bject-***R**elational **M***apping*.
 
 ### Project Status:
 
@@ -21,22 +21,27 @@ A backend management application to help with e-commerce product management.
 
 The following components are used to build the code for this project:
 
-1.
-2.
-3.
+1. JavaScript >  Node.js > npm:
+    - mysql2
+    - Sequelize
+    - Express.js
+    - dotenv
+2. MySQL Workbench
+3. Insomnia Core
+
 
 ### Functionality:
 
-The following lists all functions within this project:
-
-*
-*
-*
+* using Sequelize Model to build database tables
+* using Express.js to perform RESTful CRUD operations
 
 ### Process:
-#### Tasks
 
-### Beyond the MVP
+* source starter code provided by the bootcamp program (please see [Credit](#Credit) section)
+* `npm init` ran to create package.json file
+* required packages installed as dependencies
+* using MySQL Workbench for model data to sync and populate to
+* using Insomnia Core to test `GET`, `POST`, and `DELETE` routes
 
 ****
 
@@ -48,14 +53,23 @@ The following lists all functions within this project:
 4. Directory should include the following:
 ![Directory Structure:](./assets/images/dir-struc.png)
 
+***5. IMPORTANT >>>
+    - rename `.env.EXAMPLE` to `.env`
+    - change "//YOUR SQL PASSWORD HERE//" to your own sql password***
+
 ## Usage
+
+If accessing application from source code 
+
+RUN WITH CLI:
+
+- FIRST >>     `npm init`
+- SECOND >>    `npm run seed`
+- THIRD >>     `npm start`  
 
 ## Application Screenshots
 
-
-****
-
-## Deployment
+## Application Walkthrough
 
 
 ****
@@ -65,3 +79,5 @@ The following lists all functions within this project:
 ## Credit
 
 * Full-stack Bootcamp Program @ [Washington University, Saint Louis](https://bootcamp.tlcenter.wustl.edu/) through [© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand](https://www.trilogyed.com/)
+* [Sequalize documentation](https://sequelize.org/master/manual/)
+* [Express.js APU documentaion](https://expressjs.com/en/5x/api.html)
