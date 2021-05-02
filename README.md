@@ -12,7 +12,16 @@ This application is the backend that manages an internet retail company's produc
 
 #### Issues to debug:
 
-NONE
+Running into error in Insomnia when trying to update 'Tag' database:
+
+```
+{
+  "generatedMessage": false,
+  "code": "ERR_ASSERTION",
+  "expected": true,
+  "operator": "=="
+}
+```
 
 ****
 
