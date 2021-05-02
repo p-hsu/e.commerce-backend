@@ -8,7 +8,7 @@ This application is the backend that manages an internet retail company's produc
 
 ### Project Status:
 
-*COMPLETED*
+*ONGOING*
 
 #### Issues to debug:
 
