@@ -4,15 +4,15 @@
 
 ## Project overview
 
-This application is the backend that manages an internet retail company's product database built with Sequalize and Express.js - this application is a practice in ***O****bject-***R**elational **M***apping*.
+This application is the backend that manages an internet retail company's product database, built with Sequalize and Express.js - this application is a practice in ***O****bject-***R**elational **M***apping*.
 
 ### Project Status:
 
-*ONGOING*
+*Complete*
 
 #### Issues to debug:
 
-Running into error in Insomnia when trying to update 'Tag' database:
+Running into error in Insomnia when trying to update database:
 
 ```
 {
@@ -22,6 +22,8 @@ Running into error in Insomnia when trying to update 'Tag' database:
   "operator": "=="
 }
 ```
+
+::RESOLVED::
 
 ****
 
@@ -52,6 +54,7 @@ The following components are used to build the code for this project:
 
 * source starter code provided by the bootcamp program (please see [Credit](#Credit) section)
 * `npm init` ran to create package.json file
+* `npm install` ran to install node_modules
 * required packages installed as dependencies
 * using MySQL Workbench for model data to sync and populate to
 * using Insomnia Core to test `GET`, `POST`, and `DELETE` routes
@@ -64,7 +67,8 @@ The following components are used to build the code for this project:
 2. Open Terminal (MacOS) or Git Bash (Windows) and change location to where you want the cloned directory
 3. Type `git clone` and paste copied respository
 4. Directory should include the following:
-![Directory Structure:](./assets/images/dir-struc.png)
+
+![Directory Structure:](./assets/images/directory-structure.png)
 
 ## Usage
 
@@ -80,10 +84,9 @@ RUN WITH CLI:
 - SECOND >>    `npm run seed`
 - THIRD >>     `npm start`  
 
-## Application Screenshots
-
 ## Application Walkthrough
 
+Please [CLICK HERE](https://drive.google.com/file/d/1204o3Ae7mLJOSj5--8bP9SZ2neL-t7o8/view?usp=sharing) for a walkthrough video of the application.
 
 ****
 
